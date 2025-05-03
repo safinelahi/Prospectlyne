@@ -2,7 +2,7 @@ import jobOpportunitiesImg from '../../assets/images/jopOpportunities.png';
 const JobOpportunities = () => {
   return (
     <div className="h-[865px] px-[64px] py-[112px]">
-      <div className="flex gap-[80px] justify-center items-center">
+      <div className="flex  justify-between items-center">
         <div>
           <div>
             <h1 className="text-[40px] tracking-[-0.5px]  ">
