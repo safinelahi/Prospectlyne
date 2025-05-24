@@ -1,10 +1,9 @@
-import logo from "../../assets/images/Logo-wide 1.svg";
 const Footer = () => {
   return (
     <div className="h-[615px] px-[64px] py-[112px] bg-[#f7ede6b8]">
       <div className=" h-[118px] flex items-center justify-between ">
         <div>
-          <img src={logo} alt="" />
+          <h1 className="text-2xl font-bold">PROSPETLYNE</h1>
           <div className=" mt-[24px] flex gap-8 font-bold ">
             <a href="">Job Listings</a>
             <a href="">Student Community</a>

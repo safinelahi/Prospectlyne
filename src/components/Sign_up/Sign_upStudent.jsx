@@ -8,7 +8,7 @@ import sign_upImg from "../../assets/images/signup-image.jpg";
 
 const Sign_upStudent = () => {
   return (
-    <div className="bg-[#f8f8f8] min-h-screen flex justify-center items-center px-4">
+    <div className="bg-[#f8f8f8] min-h-screen flex justify-center items-center px-4 my-10">
       <section className="w-full max-w-5xl bg-white rounded-2xl shadow-lg flex flex-col md:flex-row items-center px-8 py-16">
         {/* Left Form Side */}
         <div className="w-full md:w-1/2 px-6">
