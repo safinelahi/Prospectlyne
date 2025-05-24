@@ -16,7 +16,7 @@ import Sign_upStudent from "./components/Sign_up/Sign_upStudent";
 function App() {
   return (
     <>
-      {/* <NavBar></NavBar>
+      <NavBar></NavBar>
       <Hero></Hero>
       <JobDiscover></JobDiscover>
       <JobOpportunities></JobOpportunities>
@@ -24,7 +24,7 @@ function App() {
       <ReviewSection></ReviewSection>
       <FAQs></FAQs>
       <Community></Community>
-      <Footer></Footer> */}
+      <Footer></Footer>
       <LoginStudent></LoginStudent>
       <LoginRecruiter></LoginRecruiter>
       <Sign_upStudent></Sign_upStudent>
