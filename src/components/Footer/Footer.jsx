@@ -1,4 +1,3 @@
-import companylogo from "../../assets/images/Company logo image.png";
 import logo from "../../assets/images/Logo-wide 1.svg";
 const Footer = () => {
   return (
@@ -28,18 +27,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         className="py-[50px] border-b-[1px] border-[#00000022]  "
         src={companylogo}
         alt=""
-      />
-      <div className=" flex justify-between my-[32px]">
+      /> */}
+      <div className="text-center my-6">
+        <h1 className="text-[10rem] font-bold text-[#7e7c7c9e]">PROSPETLYNE</h1>
+      </div>
+      <div className=" text-center">
         <div className=" flex gap-6 ">
-          <a href="Privacy Policy">Privacy Policy</a>
-          <a href="Privacy Policy">Terms of Service</a>
-          <a href="Privacy Policy">Cookies Settings</a>
+          {/* <a href="Privacy Policy">Privacy Policy</a>
+          <a href="Privacy Policy">Terms of Service</a> */}
         </div>
-        <h1>© 2025 Relume. All rights reserved.</h1>
+        <h1 className="text-center">© 2025 Relume. All rights reserved.</h1>
       </div>
     </div>
   );

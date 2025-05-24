@@ -1,12 +1,11 @@
-import logo from "../../assets/images/Logo-wide 1.svg";
 const NavBar = () => {
   return (
     <div className="  h-[75px] place-content-center-safe  px-[64px]">
       <div className="">
-        <div className="flex justify-between items-center self-stretch">
+        <div className="flex justify-between items-center self-stretch ">
           {/* Logo */}
           <div className="w-[48%] ">
-            <img src={logo} alt="" />
+            <h1 className="text-2xl font-bold">PROSPETLYNE</h1>
           </div>
 
           {/* Navigation Links */}
