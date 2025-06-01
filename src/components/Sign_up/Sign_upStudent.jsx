@@ -105,18 +105,6 @@ const Sign_upStudent = () => {
               </span>
             </div>
 
-            {/* Resume Upload */}
-            <div className="relative">
-              <input
-                type="file"
-                name="resume"
-                className="w-full py-2 pl-10 text-sm text-gray-500 focus:outline-none"
-              />
-              <span className="absolute left-0 top-1/2 -translate-y-1/2 text-gray-600">
-                <FaFileAlt />
-              </span>
-            </div>
-
             {/* Short Bio */}
             <div className="relative">
               <textarea
@@ -143,15 +131,15 @@ const Sign_upStudent = () => {
               </span>
             </div>
 
-            {/* Achievements */}
+            {/* Resume Upload */}
             <div className="relative">
               <input
                 type="file"
-                name="certificates"
+                name="resume"
                 className="w-full py-2 pl-10 text-sm text-gray-500 focus:outline-none"
               />
               <span className="absolute left-0 top-1/2 -translate-y-1/2 text-gray-600">
-                <FaAward />
+                <FaFileAlt />
               </span>
             </div>
 

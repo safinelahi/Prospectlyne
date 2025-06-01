@@ -1,36 +1,30 @@
-import "./App.css";
-import Career from "./components/Career/Career";
-import Community from "./components/Community/Community";
-import FAQs from "./components/FAQs/FAQs";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/HeroSection/Hero";
-import JobDiscover from "./components/JobDiscover/JobDiscover";
-import JobOpportunities from "./components/JobOpportunities/JobOpportunities";
-import LoginRecruiter from "./components/Login/LoginRecruiter";
-import LoginStudent from "./components/Login/LoginStudent";
-import NavBar from "./components/NavBar/NavBar";
-import ReviewSection from "./components/ReviewSection/ReviewSection";
-import Sign_upRecruiter from "./components/Sign_up/Sign_upRecruiter";
-import Sign_upStudent from "./components/Sign_up/Sign_upStudent";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
+import SignUpPage from './pages/SignupPage';
+import DashboardPage from './pages/DashboardPage';
+import JobListingsPage from './pages/JobListingsPage';
+import PostJobPage from './pages/PostJobPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import RecruiterDashboardPage from './pages/RecruiterDashboardPage';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <NavBar></NavBar>
-      <Hero></Hero>
-      <JobDiscover></JobDiscover>
-      <JobOpportunities></JobOpportunities>
-      <Career></Career>
-      <ReviewSection></ReviewSection>
-      <FAQs></FAQs>
-      <Community></Community>
-      <Footer></Footer>
-      <LoginStudent></LoginStudent>
-      <LoginRecruiter></LoginRecruiter>
-      <Sign_upStudent></Sign_upStudent>
-      <Sign_upRecruiter></Sign_upRecruiter>
-    </>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/job-listings" element={<JobListingsPage />} />
+        <Route path='/recruiter-dashboard' element={<RecruiterDashboardPage />} />
+        <Route path="/post-job" element={<PostJobPage />} />
+      </Routes>
+
   );
-}
+};
 
 export default App;
